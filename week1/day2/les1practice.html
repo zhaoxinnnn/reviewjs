@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>页面中的锚点跳转</title>
+	<style>
+	     body{
+	     	width: 100%;
+	     	height: 100%;
+	     	margin: 0;
+	     	padding: 0;
+	     }
+		.container {
+			width: 100%;
+		}
+		.container div{
+			width: 100%;
+			height: 400px;
+			margin: 10px 0;
+		}
+		.container .div1{
+			background-color: red;
+		}
+		.container .div2{
+			background-color: green;
+		}
+		.container .div3{
+			background-color: yellow;
+		}
+		.container .div4{
+			background-color: blue;
+		}
+		.btns{
+			display: flex;
+		}
+		a{
+            margin: 0 5px;
+		}
+	</style>
+</head>
+<body>
+	
+   <div class="container">
+   	<div class="div1" id="div1">我是第一个</div>
+   	<div class="div2" id="div2">我是第二个</div>
+   	<div class="div3" id="div3">我是第三个</div>
+   	<div class="div4" id="div4">我是第四个</div>
+   </div>
+   <div class="btns">
+      <a href="#div1" title="跳转到第一个">跳转到第一个</a>
+      <a href="#div2" title="跳转到第二个">跳转到第二个</a>
+      <a href="#div3" title="跳转到第三个">跳转到第三个</a>
+      <a href="#div4" title="跳转到第四个">跳转到第四个</a>
+   </div>
+
+</body>
+</html>
